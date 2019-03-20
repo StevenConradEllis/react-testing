@@ -2,7 +2,72 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="38ed1cfd-1971-476b-a48f-f3573ee43b46" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/public/assets/icon/icon-152.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/icon/icon-167.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/icon/icon-180.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/icon/icon-192.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/icon/icon-512.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/icon/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/img/appicon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/img/appicon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/img/branches/bear.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/img/branches/cheetah.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/img/branches/duck.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/img/branches/eagle.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/img/branches/elephant.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/img/branches/giraffe.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/img/branches/iguana.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/img/branches/kitten.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/img/branches/lion.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/img/branches/mouse.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/img/branches/puppy.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/img/branches/rabbit.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/img/branches/turtle.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/img/ica-slidebox-img-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/img/ica-slidebox-img-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/img/ica-slidebox-img-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/img/ica-slidebox-img-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/img/ionic-logo-white.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/data/branches.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/data/fishes.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/data/locations.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/AboutPopover.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/FishList.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/FishListFilter.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/FishListItem.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Map.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/About.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/About.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/AppStack.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/BranchDetail.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/BranchDetail.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/BranchList.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/FishesPage.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/FishesPage.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Map.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Map.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Tabs.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/branches/actions.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/branches/middleware.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/branches/reducer.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/branches/types.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/fishes/actions.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/fishes/middleware.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/fishes/reducer.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/fishes/selectors.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/fishes/types.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/locations/actions.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/locations/middleware.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/locations/reducer.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/locations/selectors.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/locations/types.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/root-reducer.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/store.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,28 +79,53 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="App.tsx" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/App.tsx">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="19" lean-forward="true" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+            <state relative-caret-position="435">
+              <caret line="29" column="4" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Map.tsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pages/Map.tsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
               <folding>
-                <element signature="e#0#41#0" expanded="true" />
+                <element signature="e#0#26#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="32" column="3" selection-start-line="32" selection-start-column="3" selection-end-line="32" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>speakerIds</find>
+      <find>Sessions</find>
+      <find>Session</find>
+      <find>session</find>
+      <find>Speaker</find>
+      <find>speaker</find>
+      <find>SchedulePage.css</find>
+      <find>sessions/middleware</find>
+      <find>sessions</find>
+      <find>import { Speaker } from './types';</find>
+      <find>speakers</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>branchIds</replace>
+      <replace>Branch</replace>
+      <replace>Fish</replace>
+      <replace>Fishes</replace>
+      <replace>fish</replace>
+      <replace>branch</replace>
+      <replace>fishes</replace>
+      <replace>branches</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -44,7 +134,36 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/public/data/fish.json" />
+        <option value="$PROJECT_DIR$/src/store/branches/middleware.ts" />
+        <option value="$PROJECT_DIR$/src/store/branches/reducer.ts" />
+        <option value="$PROJECT_DIR$/src/store/branches/types.ts" />
+        <option value="$PROJECT_DIR$/src/store/fish/actions.ts" />
+        <option value="$PROJECT_DIR$/src/store/fish/middleware.ts" />
+        <option value="$PROJECT_DIR$/src/store/fish/reducer.ts" />
+        <option value="$PROJECT_DIR$/src/store/fish/selectors.ts" />
+        <option value="$PROJECT_DIR$/src/store/fish/types.ts" />
+        <option value="$PROJECT_DIR$/src/store/fishes/types.ts" />
+        <option value="$PROJECT_DIR$/src/pages/About.tsx" />
+        <option value="$PROJECT_DIR$/src/components/FishListFilter.tsx" />
+        <option value="$PROJECT_DIR$/src/store/index.ts" />
+        <option value="$PROJECT_DIR$/src/store/root-reducer.ts" />
+        <option value="$PROJECT_DIR$/src/components/FishListItem.tsx" />
+        <option value="$PROJECT_DIR$/src/components/FishList.tsx" />
+        <option value="$PROJECT_DIR$/src/pages/BranchList.tsx" />
+        <option value="$PROJECT_DIR$/src/pages/SpeakerDetail.tsx" />
+        <option value="$PROJECT_DIR$/src/pages/BranchDetail.tsx" />
+        <option value="$PROJECT_DIR$/src/pages/BranchDetail.css" />
+        <option value="$PROJECT_DIR$/src/pages/Tabs.tsx" />
+        <option value="$PROJECT_DIR$/src/pages/AppStack.tsx" />
         <option value="$PROJECT_DIR$/src/App.tsx" />
+        <option value="$PROJECT_DIR$/src/pages/FishesPage.tsx" />
+        <option value="$PROJECT_DIR$/src/store/store.ts" />
+        <option value="$PROJECT_DIR$/src/store/branches/actions.ts" />
+        <option value="$PROJECT_DIR$/src/store/fishes/actions.ts" />
+        <option value="$PROJECT_DIR$/public/data/branches.json" />
+        <option value="$PROJECT_DIR$/src/pages/Map.tsx" />
+        <option value="$PROJECT_DIR$/public/index.html" />
       </list>
     </option>
   </component>
@@ -64,7 +183,7 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="148" />
-    <option name="y" value="144" />
+    <option name="y" value="145" />
     <option name="width" value="1915" />
     <option name="height" value="1177" />
   </component>
@@ -84,7 +203,50 @@
             <path>
               <item name="my-ionic-app" type="b2602c69:ProjectViewProjectNode" />
               <item name="my-ionic-app" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my-ionic-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-ionic-app" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my-ionic-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-ionic-app" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my-ionic-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-ionic-app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my-ionic-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-ionic-app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my-ionic-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-ionic-app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="store" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my-ionic-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-ionic-app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="store" type="462c0819:PsiDirectoryNode" />
+              <item name="branches" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my-ionic-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-ionic-app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="store" type="462c0819:PsiDirectoryNode" />
+              <item name="fishes" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -104,6 +266,15 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/pages" />
+      <recent name="$PROJECT_DIR$/src/components" />
+      <recent name="$PROJECT_DIR$/src/store" />
+      <recent name="$PROJECT_DIR$/src/store/fish" />
+      <recent name="$PROJECT_DIR$/src/store/branches" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -131,7 +302,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="148" y="144" width="1915" height="1177" extended-state="0" />
+    <frame x="148" y="145" width="1915" height="1177" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
@@ -139,16 +311,16 @@
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Python Console" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32962963" />
+      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.32962963" />
       <window_info anchor="bottom" id="TypeScript" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24986653" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24986653" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32962963" />
       <window_info anchor="right" id="SciView" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -156,6 +328,30 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
     </layout>
+    <layout-to-restore>
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="1" />
+      <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
+      <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
+      <window_info id="Favorites" order="0" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.24986653" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Commander" order="2" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="13" />
+      <window_info anchor="bottom" id="Database Changes" order="2" show_stripe_button="false" />
+      <window_info anchor="bottom" id="TypeScript" order="3" />
+      <window_info anchor="bottom" id="Run" order="9" />
+      <window_info anchor="bottom" id="Find" order="8" weight="0.32962963" />
+      <window_info anchor="right" id="Database" order="0" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="4" visible="true" weight="0.32962963" />
+      <window_info anchor="bottom" id="Event Log" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
+      <window_info anchor="right" id="SciView" order="1" />
+      <window_info anchor="bottom" id="Debug" order="10" weight="0.4" />
+      <window_info anchor="bottom" id="Message" order="7" />
+      <window_info anchor="bottom" id="Python Console" order="6" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -164,20 +360,325 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/package.json">
+    <entry file="file://$PROJECT_DIR$/src/react-app-env.d.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.test.tsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" column="3" selection-start-line="32" selection-start-column="3" selection-end-line="32" selection-end-column="3" />
+        <state>
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/store/locations/types.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/store/locations/selectors.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/store/locations/reducer.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/store/locations/middleware.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="49" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="49" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/store/locations/actions.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="e#0#67#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/store/branches/reducer.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="20" lean-forward="true" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/store/branches/middleware.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="40" lean-forward="true" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/store/fishes/middleware.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/data/locations.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/store/fishes/types.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="2" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/store/fishes/selectors.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/store/fishes/reducer.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/AboutPopover.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/About.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/store/index.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="36" column="46" lean-forward="true" selection-start-line="36" selection-start-column="46" selection-end-line="36" selection-end-column="46" />
+          <folding>
+            <element signature="e#0#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/store/root-reducer.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/FishListItem.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="63" selection-start-line="3" selection-start-column="63" selection-end-line="3" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/@types/react-router/index.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="69" column="17" selection-start-line="69" selection-start-column="17" selection-end-line="69" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/data/fishes.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="14" column="7" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/FishListFilter.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="990">
+          <caret line="66" column="47" selection-start-line="66" selection-start-column="47" selection-end-line="66" selection-end-column="47" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/FishList.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Map.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="21" column="37" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/BranchDetail.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/BranchDetail.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="43" column="19" selection-start-line="43" selection-start-column="19" selection-end-line="43" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/BranchList.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="521">
+          <caret line="110" column="85" selection-start-line="110" selection-start-column="85" selection-end-line="110" selection-end-column="85" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/About.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/Tabs.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="34" lean-forward="true" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/AppStack.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="26" selection-start-column="26" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/App.tsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="19" lean-forward="true" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+        <state relative-caret-position="195">
+          <caret line="13" column="16" lean-forward="true" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="36" column="3" selection-start-line="36" selection-start-column="3" selection-end-line="36" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/FishesPage.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/FishesPage.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/store/branches/actions.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#67#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/store/branches/types.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/store/store.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="e#0#74#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/store/fishes/actions.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#67#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/data/branches.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="30" lean-forward="true" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/Map.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="4" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="4" />
         </state>
       </provider>
     </entry>

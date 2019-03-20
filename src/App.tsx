@@ -1,30 +1,22 @@
-import React, { Component } from 'react';
+import React from 'react';
 import '@ionic/core/css/core.css';
 import '@ionic/core/css/ionic.bundle.css';
-import {
-  IonApp,
-  IonContent,
-  IonCard,
-  IonCardHeader,
-  IonCardTitle,
-  IonCardSubtitle
-} from '@ionic/react';
+import {IonApp} from '@ionic/react';
+import store from "./store/store";
+import {BrowserRouter as Router, Route} from 'react-router-dom';
+import {Provider} from 'react-redux';
+import AppStack from "./pages/AppStack";
 
-class App extends Component {
-  render() {
-    return (
-      <IonApp>
-        <IonContent>
-          <IonCard>
-            <IonCardHeader>
-              <IonCardSubtitle>Welcome to Ionic</IonCardSubtitle>
-              <IonCardTitle>Running on React</IonCardTitle>
-            </IonCardHeader>
-          </IonCard>
-        </IonContent>
-      </IonApp>
-    );
-  }
-}
+const App = () => (
+  <Provider store={store}>
+    <Router>
+      <div id="app">
+        <IonApp>
+            <Route path="/" component={AppStack} />
+        </IonApp>
+      </div>
+    </Router>
+  </Provider>
+);
 
 export default App;
