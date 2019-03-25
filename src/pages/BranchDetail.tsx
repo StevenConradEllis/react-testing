@@ -9,7 +9,8 @@ type Props = RouteComponentProps<{ id: string, tab: string}> & ReturnType<typeof
   goBack: () => void;
 };
 
-const BranchDetail: React.SFC<Props> = ({ branches, match, goBack }) => {
+const BranchDetail: React.FunctionComponent<Props> = ({ branches, match, goBack }) => {
+
   const branch = branches.find(s => s.id === parseInt(match.params.id, 10));
   if (!branch) {
     return null;

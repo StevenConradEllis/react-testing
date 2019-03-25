@@ -19,13 +19,13 @@ type State = {
 }
 
 class FishListItem extends React.Component<Props, State> {
-  ionItemSlidingRef: React.RefObject<any>
+  ionItemSlidingRef: React.RefObject<any>;
   defaultState: State = {
     showAlert: false,
     alertHeader: '',
     alertMessage: undefined,
     alertButtons: []
-  }
+  };
 
   constructor(props: Props) {
     super(props);

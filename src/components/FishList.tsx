@@ -9,7 +9,7 @@ interface Props {
   listType: "all" | "favorites"
 }
 
-const FishList: React.SFC<Props> = ({fishes, hidden, listType }) => {
+const FishList: React.FunctionComponent<Props> = ({fishes, hidden, listType }) => {
   if (fishes.length === 0) {
     return (
       <IonList style={hidden ? {display: 'none'} : {}}>

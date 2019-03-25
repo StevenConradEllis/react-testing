@@ -2,73 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="38ed1cfd-1971-476b-a48f-f3573ee43b46" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/public/assets/icon/icon-152.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/icon/icon-167.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/icon/icon-180.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/icon/icon-192.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/icon/icon-512.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/icon/icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/appicon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/appicon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/branches/bear.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/branches/cheetah.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/branches/duck.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/branches/eagle.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/branches/elephant.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/branches/giraffe.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/branches/iguana.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/branches/kitten.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/branches/lion.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/branches/mouse.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/branches/puppy.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/branches/rabbit.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/branches/turtle.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/ica-slidebox-img-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/ica-slidebox-img-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/ica-slidebox-img-3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/ica-slidebox-img-4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/ionic-logo-white.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/data/branches.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/data/fishes.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/data/locations.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/AboutPopover.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/FishList.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/FishListFilter.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/FishListItem.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Map.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/About.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/About.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/AppStack.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/BranchDetail.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/BranchDetail.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/BranchList.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/FishesPage.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/FishesPage.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/Map.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/Map.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/Tabs.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/branches/actions.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/branches/middleware.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/branches/reducer.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/branches/types.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/fishes/actions.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/fishes/middleware.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/fishes/reducer.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/fishes/selectors.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/fishes/types.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/locations/actions.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/locations/middleware.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/locations/reducer.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/locations/selectors.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/locations/types.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/root-reducer.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/store.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/FishList.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/FishList.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/FishListItem.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/FishListItem.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/BranchDetail.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/BranchDetail.tsx" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -78,12 +16,101 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="435">
-              <caret line="29" column="4" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="4" />
+              <caret line="29" column="123" selection-start-line="29" selection-start-column="123" selection-end-line="29" selection-end-column="123" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FishList.tsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/FishList.tsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="39" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="39" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FishListItem.tsx" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/components/FishListItem.tsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="27" column="4" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="4" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AboutPopover.tsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/AboutPopover.tsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FishListFilter.tsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/FishListFilter.tsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="990">
+              <caret line="66" column="47" selection-start-line="66" selection-start-column="47" selection-end-line="66" selection-end-column="47" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="About.tsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pages/About.tsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BranchDetail.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pages/BranchDetail.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BranchDetail.tsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pages/BranchDetail.tsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FishesPage.tsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pages/FishesPage.tsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1273">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -91,8 +118,8 @@
       <file leaf-file-name="Map.tsx" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pages/Map.tsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+            <state relative-caret-position="300">
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -148,11 +175,8 @@
         <option value="$PROJECT_DIR$/src/components/FishListFilter.tsx" />
         <option value="$PROJECT_DIR$/src/store/index.ts" />
         <option value="$PROJECT_DIR$/src/store/root-reducer.ts" />
-        <option value="$PROJECT_DIR$/src/components/FishListItem.tsx" />
-        <option value="$PROJECT_DIR$/src/components/FishList.tsx" />
         <option value="$PROJECT_DIR$/src/pages/BranchList.tsx" />
         <option value="$PROJECT_DIR$/src/pages/SpeakerDetail.tsx" />
-        <option value="$PROJECT_DIR$/src/pages/BranchDetail.tsx" />
         <option value="$PROJECT_DIR$/src/pages/BranchDetail.css" />
         <option value="$PROJECT_DIR$/src/pages/Tabs.tsx" />
         <option value="$PROJECT_DIR$/src/pages/AppStack.tsx" />
@@ -164,6 +188,9 @@
         <option value="$PROJECT_DIR$/public/data/branches.json" />
         <option value="$PROJECT_DIR$/src/pages/Map.tsx" />
         <option value="$PROJECT_DIR$/public/index.html" />
+        <option value="$PROJECT_DIR$/src/components/FishList.tsx" />
+        <option value="$PROJECT_DIR$/src/pages/BranchDetail.tsx" />
+        <option value="$PROJECT_DIR$/src/components/FishListItem.tsx" />
       </list>
     </option>
   </component>
@@ -192,7 +219,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -248,10 +274,18 @@
               <item name="store" type="462c0819:PsiDirectoryNode" />
               <item name="fishes" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="my-ionic-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-ionic-app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="store" type="462c0819:PsiDirectoryNode" />
+              <item name="locations" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -299,58 +333,65 @@
       <option name="presentableId" value="Default" />
       <updated>1553085433976</updated>
     </task>
+    <task id="LOCAL-00001" summary="Add tabs, pages, session management">
+      <created>1553096028744</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1553096028744</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="148" y="145" width="1915" height="1177" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Python Console" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.32962963" />
-      <window_info anchor="bottom" id="TypeScript" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24986653" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32962963" />
-      <window_info anchor="right" id="SciView" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="7" visible="true" weight="0.32962963" />
+      <window_info anchor="bottom" id="Python Console" order="7" weight="0.32962963" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32962963" />
+      <window_info anchor="bottom" id="TypeScript" order="7" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25253603" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="SciView" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info id="Favorites" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32962963" />
     </layout>
     <layout-to-restore>
+      <window_info anchor="bottom" id="Version Control" order="1" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="1" />
-      <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
-      <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
-      <window_info id="Favorites" order="0" side_tool="true" />
+      <window_info anchor="bottom" id="Run" order="9" />
       <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.24986653" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" order="2" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="13" />
-      <window_info anchor="bottom" id="Database Changes" order="2" show_stripe_button="false" />
       <window_info anchor="bottom" id="TypeScript" order="3" />
-      <window_info anchor="bottom" id="Run" order="9" />
+      <window_info anchor="bottom" id="Python Console" order="6" />
+      <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
       <window_info anchor="bottom" id="Find" order="8" weight="0.32962963" />
       <window_info anchor="right" id="Database" order="0" />
       <window_info active="true" anchor="bottom" id="Terminal" order="4" visible="true" weight="0.32962963" />
       <window_info anchor="bottom" id="Event Log" order="5" side_tool="true" />
-      <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
+      <window_info anchor="bottom" id="Database Changes" order="2" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
       <window_info anchor="right" id="SciView" order="1" />
-      <window_info anchor="bottom" id="Debug" order="10" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="7" />
-      <window_info anchor="bottom" id="Python Console" order="6" />
+      <window_info anchor="bottom" id="Debug" order="10" weight="0.4" />
+      <window_info id="Favorites" order="0" side_tool="true" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -359,18 +400,33 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add tabs, pages, session management" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add tabs, pages, session management" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/react-app-env.d.ts">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.test.tsx">
+    <entry file="file://$PROJECT_DIR$/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="435">
+          <caret line="29" column="123" selection-start-line="29" selection-start-column="123" selection-end-line="29" selection-end-column="123" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/Map.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/react-app-env.d.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.test.tsx">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/App.css">
       <provider selected="true" editor-type-id="text-editor" />
@@ -424,9 +480,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="40" lean-forward="true" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -463,15 +516,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/AboutPopover.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/About.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -495,13 +539,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/FishListItem.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="63" selection-start-line="3" selection-start-column="63" selection-end-line="3" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/@types/react-router/index.d.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="233">
@@ -516,44 +553,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/FishListFilter.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="990">
-          <caret line="66" column="47" selection-start-line="66" selection-start-column="47" selection-end-line="66" selection-end-column="47" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/FishList.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Map.tsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="21" column="37" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/BranchDetail.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/BranchDetail.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="43" column="19" selection-start-line="43" selection-start-column="19" selection-end-line="43" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -564,13 +567,6 @@
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/About.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="38" />
         </state>
       </provider>
     </entry>
@@ -595,9 +591,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="13" column="16" lean-forward="true" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -610,16 +603,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/FishesPage.css">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/FishesPage.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/store/branches/actions.ts">
       <provider selected="true" editor-type-id="text-editor">
@@ -642,9 +625,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="e#0#74#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -667,8 +647,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/Map.tsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        <state relative-caret-position="300">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
@@ -678,7 +658,80 @@
     <entry file="file://$PROJECT_DIR$/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="435">
-          <caret line="29" column="4" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="4" />
+          <caret line="29" column="123" selection-start-line="29" selection-start-column="123" selection-end-line="29" selection-end-column="123" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/AboutPopover.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/FishListFilter.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="990">
+          <caret line="66" column="47" selection-start-line="66" selection-start-column="47" selection-end-line="66" selection-end-column="47" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/About.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/BranchDetail.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/BranchDetail.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/FishesPage.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1273">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/FishList.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="39" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="39" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/FishListItem.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="4" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
