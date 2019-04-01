@@ -1,24 +1,24 @@
 import { FishState, Fish } from './types';
 
-export function allTracks(state: FishState) {
+export function allTags(state: FishState) {
   return state.fishes
-    .reduce((all, fish) => all.concat(fish.tracks), <string[]>[])
+    .reduce((all, fish) => all.concat(fish.tags), <string[]>[])
     .filter((trackName, index, array) => array.indexOf(trackName) === index)
     .sort();
 }
 
 export function allFiltered(state: FishState) {
   let searchFishes = searchText(state.searchText);
-  let searchTracks = filterByTrack(state.trackFilters);
+  let searchTags = filterByTrack(state.trackFilters);
 
   return state.fishes
     .filter(searchFishes)
-    .filter(searchTracks);
+    .filter(searchTags);
 }
 
 export function favoritesFiltered(state: FishState) {
   let searchFishes = searchText(state.searchText);
-  let searchTracks = filterByTrack(state.trackFilters);
+  let searchTags = filterByTrack(state.trackFilters);
 
   function isFavorite(fish: Fish) {
     return state.favoriteFishes.indexOf(fish.id) !== -1;
@@ -27,7 +27,7 @@ export function favoritesFiltered(state: FishState) {
   return state.fishes
     .filter(isFavorite)
     .filter(searchFishes)
-    .filter(searchTracks);
+    .filter(searchTags);
 }
 
 function searchText(searchText: string) {
@@ -43,7 +43,7 @@ function filterByTrack(trackFilters: string[]) {
     return () => true;
   }
   return (fish: Fish) => (
-    fish.tracks.some(fishTrackName => (
+    fish.tags.some(fishTrackName => (
       trackFilters.some(trackName => trackName === fishTrackName)
     ))
   );

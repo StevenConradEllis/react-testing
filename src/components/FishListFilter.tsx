@@ -2,8 +2,8 @@ import React, { Component } from 'react';
 import { IonHeader, IonButton, IonButtons, IonToolbar, IonTitle, IonContent, IonList, IonListHeader, IonItem, IonLabel, IonToggle, IonPage } from '@ionic/react';
 
 type Props = {
-  filteredTracks: string[];
-  allTracks: string[];
+  filteredTags: string[];
+  allTags: string[];
   dismissModal: () => void;
   updateTrackFilters: (trackList: string[]) => void;
 }
@@ -17,7 +17,7 @@ export default class FishListFilter extends Component<Props, State> {
     super(props);
 
     this.state = {
-      trackFilters: props.filteredTracks
+      trackFilters: props.filteredTags
     }
   }
 
@@ -61,8 +61,8 @@ export default class FishListFilter extends Component<Props, State> {
 
         <IonContent class="outer-content">
           <IonList>
-            <IonListHeader>Tracks</IonListHeader>
-            { this.props.allTracks.map((track) => (
+            <IonListHeader>Tags</IonListHeader>
+            { this.props.allTags.map((track) => (
               <IonItem key={track}>
                 <span slot="start" className="dot"></span>
                 <IonLabel>{track}</IonLabel>

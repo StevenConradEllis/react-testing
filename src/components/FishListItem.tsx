@@ -2,7 +2,7 @@ import React from 'react';
 import { connect } from 'react-redux';
 import { RootState, actions } from '../store';
 import { withRouter, RouteComponentProps } from 'react-router';
-import { IonLabel, IonItemSliding, IonItem, IonItemOptions, IonItemOption, IonAlert } from '@ionic/react';
+import {IonLabel, IonItemSliding, IonItem, IonItemOptions, IonItemOption, IonAlert, IonAvatar} from '@ionic/react';
 import { Fish } from '../store/fishes/types';
 import { AlertButton } from '@ionic/react';
 
@@ -88,12 +88,12 @@ class FishListItem extends React.Component<Props, State> {
   }
 
   navigateToFish = (fishId: number) => () => {
-    this.props.history.push(`/schedule/fishes/${fishId}`);
+    this.props.history.push(`/fishes/fishes/${fishId}`);
   }
 
   render() {
     return (
-      <IonItemSliding ref={this.ionItemSlidingRef} class={'track-' + this.props.fish.tracks[0].toLowerCase()}>
+      <IonItemSliding ref={this.ionItemSlidingRef} class={'track-' + this.props.fish.tags[0].toLowerCase()}>
         <IonAlert
           isOpen={this.state.showAlert}
           header={this.state.alertHeader}
@@ -101,11 +101,11 @@ class FishListItem extends React.Component<Props, State> {
           onDidDismiss={this.dismissAlert}
         ></IonAlert>
         <IonItem button onClick={this.navigateToFish(this.props.fish.id)}>
+          <IonAvatar slot="start">
+            <img src={process.env.PUBLIC_URL + this.props.fish.pic} alt={this.props.fish.name}/>
+          </IonAvatar>
           <IonLabel>
             <h3>{this.props.fish.name}</h3>
-            <p>
-              {this.props.fish.location}
-            </p>
           </IonLabel>
         </IonItem>
         <IonItemOptions>

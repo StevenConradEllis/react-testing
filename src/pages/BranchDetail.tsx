@@ -43,6 +43,9 @@ const BranchDetail: React.FunctionComponent<Props> = ({ branches, match, goBack 
         </div>
 
         <p>{branch.about}</p>
+        <p><strong>Address</strong>: {branch.location}</p>
+        <p><strong>Email</strong>: {branch.email}</p>
+        <p><strong>Phone</strong>: {branch.phone}</p>
       </IonContent>
     </>
   );

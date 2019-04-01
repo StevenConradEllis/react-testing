@@ -19,7 +19,7 @@ type State = {
   loadingMessage: string
 }
 
-class SchedulePage extends Component<Props, State> {
+class FishesPage extends Component<Props, State> {
   ionRefresherRef: React.RefObject<HTMLIonRefresherElement>
   ionFabRef: React.RefObject<HTMLIonFabElement>
   state = {
@@ -145,8 +145,8 @@ class SchedulePage extends Component<Props, State> {
           onDidDismiss={() => this.setState(() => ({ showFilterModal: false}))}
         >
           <FishListFilter
-            filteredTracks={this.props.filteredTracks}
-            allTracks={this.props.allTracks}
+            filteredTags={this.props.filteredTags}
+            allTags={this.props.allTags}
             updateTrackFilters={this.props.updateTrackFilters}
             dismissModal={() => this.setState(() => ({ showFilterModal: false}))}
           />
@@ -187,8 +187,8 @@ const mapStateToProps = (state: RootState) => ({
   favoritesFiltered: selectors.fishes.favoritesFiltered(state.fishes),
   searchText: state.fishes.searchText,
   favoriteFishes: state.fishes.favoriteFishes,
-  filteredTracks: state.fishes.trackFilters,
-  allTracks: selectors.fishes.allTracks(state.fishes)
+  filteredTags: state.fishes.trackFilters,
+  allTags: selectors.fishes.allTags(state.fishes)
 });
 
 const mapDispatchToProps = {
@@ -202,4 +202,4 @@ const mapDispatchToProps = {
 export default connect(
   mapStateToProps,
   mapDispatchToProps
-)(SchedulePage);
+)(FishesPage);

@@ -21,7 +21,7 @@ export default class Map extends Component<Props> {
         lat: this.props.mapCenter.lat,
         lng: this.props.mapCenter.lng
       },
-      zoom: 16
+      zoom: 11
     });
 
     this.addMarkers();

@@ -1,10 +1,10 @@
 export interface Fish {
     id: number,
     name: string,
-    location: string,
+    pic: string,
     description: string,
     branchIds: number[],
-    tracks: string[]
+    tags: string[]
   }
   
   export interface FishState {

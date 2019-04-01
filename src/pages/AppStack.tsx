@@ -6,10 +6,11 @@ import { Route, Redirect } from 'react-router';
 import FishesPage from "./FishesPage";
 import BranchList from "./BranchList";
 import BranchDetail from "./BranchDetail";
+import FishDetail from "./FishDetail";
 
 const AppStack: React.SFC = () => (
   <IonPage>
-    <Route exact path="/" render={() => <Redirect to="/schedule"/>}/>
+    <Route exact path="/" render={() => <Redirect to="/fishes"/>}/>
     {
     /**
      * Only render exact matches.  Only destroy on back button click
@@ -25,16 +26,17 @@ const AppStack: React.SFC = () => (
         <Route path="/:tab(fishes)" component={FishesPage} exact={true} />
         <Route path="/:tab(branches)" component={BranchList} exact={true} />
         <Route path="/:tab(branches)/branch/:id" component={BranchDetail} />
+        <Route path="/:tab(fishes|branches)/fishes/:id" component={FishDetail} />
         <Route path="/:tab(map)" component={MapView} />
         <Route path="/:tab(about)" component={About} />
       </IonRouterOutlet>
       <IonTabBar slot="bottom">
         <IonTabButton tab="fishes" href="/fishes">
-          <IonIcon name="calendar" />
-          <IonLabel>Fishes</IonLabel>
+          <IonIcon name="sunny" />
+          <IonLabel>Our Fish</IonLabel>
         </IonTabButton>
         <IonTabButton tab="branches" href="/branches">
-          <IonIcon name="contacts" />
+          <IonIcon name="planet" />
           <IonLabel>Branches</IonLabel>
         </IonTabButton>
         <IonTabButton tab="map" href="/map">

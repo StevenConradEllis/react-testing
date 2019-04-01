@@ -2,22 +2,33 @@
   {
     "id": 1,
     "name": "Map Center",
-    "lat": 43.071584,
-    "lng": -89.380120
-  }, {
+    "lng": -0.20015716552734375,
+    "lat": 51.49078959803455
+  },
+  {
     "id": 2,
-    "name": "Monona Terrace Convention Center",
-    "lat": 43.071584,
-    "lng": -89.380120
+    "name": "Live Aquaria",
+    "lng": -0.28504371643066406,
+    "lat": 51.40836160664242
   }, {
     "id": 3,
-    "name": "Ionic HQ",
-    "lat": 43.074395,
-    "lng": -89.381056
+    "name": "Tropical Pet Land",
+    "lng": -0.13900279998779297,
+    "lat": 51.4741394823883
   }, {
     "id": 4,
-    "name": "Afterparty - Brocach Irish Pub",
-    "lat": 43.07336,
-    "lng": -89.38335
+    "name": "Goldfish Treasures",
+    "lng": -0.05872964859008789,
+    "lat": 51.528530495929786
+  }, {
+    "id": 5,
+    "name": "Fishkeeping World",
+    "lng": -0.10977745056152344,
+    "lat": 51.56575995338882
+  }, {
+    "id": 6,
+    "name": "GuppyLand",
+    "lng": -0.16864120960235596,
+    "lat": 51.52440535953175
   }
 ]

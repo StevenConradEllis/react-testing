@@ -7,8 +7,8 @@ export function mapCenter(state: LocationState): Location {
     return {
       id: 1,
       name: "Map Center",
-      lat: 43.071584,
-      lng: -89.380120
+      lat: 51.49078959803455,
+      lng: -0.20015716552734375
     };
   }
 
