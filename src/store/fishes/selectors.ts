@@ -9,7 +9,7 @@ export function allTags(state: FishState) {
 
 export function allFiltered(state: FishState) {
   let searchFishes = searchText(state.searchText);
-  let searchTags = filterByTrack(state.trackFilters);
+  let searchTags = filterByTrack(state.tagFilters);
 
   return state.fishes
     .filter(searchFishes)
@@ -18,7 +18,7 @@ export function allFiltered(state: FishState) {
 
 export function favoritesFiltered(state: FishState) {
   let searchFishes = searchText(state.searchText);
-  let searchTags = filterByTrack(state.trackFilters);
+  let searchTags = filterByTrack(state.tagFilters);
 
   function isFavorite(fish: Fish) {
     return state.favoriteFishes.indexOf(fish.id) !== -1;

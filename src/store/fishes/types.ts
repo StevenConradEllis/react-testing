@@ -9,7 +9,7 @@ export interface Fish {
   
   export interface FishState {
     searchText: string;
-    trackFilters: string[];
+    tagFilters: string[];
     fishes: Fish[];
     favoriteFishes: number[];
   }

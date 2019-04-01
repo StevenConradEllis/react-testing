@@ -4,7 +4,7 @@ import { FishState } from './types';
 
 const defaultState: FishState = {
   searchText: '',
-  trackFilters: [],
+  tagFilters: [],
   fishes: [],
   favoriteFishes: []
 }
@@ -16,8 +16,8 @@ export default (state = defaultState, action: ActionType<typeof fishes>): FishSt
       ...state,
       searchText: action.payload
     };
-  case getType(fishes.addTrackFilter):
-    const updatedTrackFilters = state.trackFilters
+  case getType(fishes.addTagFilter):
+    const updatedTagFilters = state.tagFilters
       .concat(action.payload)
       .reduce((updatedList, item) => {
         if (!updatedList.indexOf(item)) {
@@ -28,15 +28,15 @@ export default (state = defaultState, action: ActionType<typeof fishes>): FishSt
     return {
       ...state,
     };
-  case getType(fishes.removeTrackFilter):
+  case getType(fishes.removeTagFilter):
     return {
       ...state,
-      trackFilters: state.trackFilters.filter(tn => tn !== action.payload)
+      tagFilters: state.tagFilters.filter(tn => tn !== action.payload)
     };
-  case getType(fishes.updateTrackFilters):
+  case getType(fishes.updateTagFilters):
     return {
       ...state,
-      trackFilters: action.payload
+      tagFilters: action.payload
     };
   case getType(fishes.addFavorite):
     const updatedFavoriteFishes = state.favoriteFishes

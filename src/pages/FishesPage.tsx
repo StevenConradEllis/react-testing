@@ -187,7 +187,7 @@ const mapStateToProps = (state: RootState) => ({
   favoritesFiltered: selectors.fishes.favoritesFiltered(state.fishes),
   searchText: state.fishes.searchText,
   favoriteFishes: state.fishes.favoriteFishes,
-  filteredTags: state.fishes.trackFilters,
+  filteredTags: state.fishes.tagFilters,
   allTags: selectors.fishes.allTags(state.fishes)
 });
 
@@ -196,7 +196,7 @@ const mapDispatchToProps = {
   updateFishes: () => actions.fishes.updateFishes(),
   updateBranches: () => actions.branches.updateBranches(),
   setSearchText: (searchText: string) => actions.fishes.setSearchText(searchText),
-  updateTrackFilters: (trackList: string[]) => actions.fishes.updateTrackFilters(trackList)
+  updateTrackFilters: (trackList: string[]) => actions.fishes.updateTagFilters(trackList)
 }
 
 export default connect(

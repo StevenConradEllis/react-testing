@@ -15,15 +15,15 @@ export const setSearchText = createAction('fishes/SET_SEARCH_TEXT', resolve =>
   (searchText: string) => resolve(searchText)
 );
 
-export const addTrackFilter = createAction('fishes/ADD_TRACK_FILTER', resolve =>
+export const addTagFilter = createAction('fishes/ADD_TAG_FILTER', resolve =>
   (trackName: string) => resolve(trackName)
 );
 
-export const removeTrackFilter = createAction('fishes/REMOVE_TRACK_FILTER', resolve =>
+export const removeTagFilter = createAction('fishes/REMOVE_TAG_FILTER', resolve =>
   (trackName: string) => resolve(trackName)
 );
 
-export const updateTrackFilters = createAction('fishes/UPDATE_TRACK_FILTERS', resolve =>
+export const updateTagFilters = createAction('fishes/UPDATE_TAG_FILTERS', resolve =>
   (trackNames: string[]) => resolve(trackNames)
 );
 

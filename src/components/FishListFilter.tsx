@@ -24,8 +24,8 @@ export default class FishListFilter extends Component<Props, State> {
   toggleTrackFilter = (e: CustomEvent) => {
     this.setState((prevState) => {
       const trackFilters = (e.detail.checked) ?
-        prevState.trackFilters.concat(e.detail.value) :
-        prevState.trackFilters.filter(track => track !== e.detail.value);
+        prevState.tagFilters.concat(e.detail.value) :
+        prevState.tagFilters.filter(track => track !== e.detail.value);
       return {
         trackFilters
       }
