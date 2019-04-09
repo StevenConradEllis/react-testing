@@ -1,11 +1,12 @@
 export interface Location {
-  id: number;
-  name?: string;
-  lat: number;
-  lng: number;
+    id: number;
+    name?: string;
+    lat: number;
+    lng: number;
 }
 
 export interface LocationState {
-  mapCenterId: number
-  locations: Location[]
+    mapCenterId: number
+    locations: Location[],
+    userLocationRetrieved: boolean
 }

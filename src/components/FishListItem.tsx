@@ -40,7 +40,7 @@ class FishListItem extends React.Component<Props, State> {
     this.setState(() => ({
       ...this.defaultState
     }));
-    this.ionItemSlidingRef.current.close();
+    if (this.ionItemSlidingRef.current) this.ionItemSlidingRef.current.close();
   }
 
   addFavoriteFish = () => {

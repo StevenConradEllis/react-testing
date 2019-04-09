@@ -39,10 +39,8 @@ export default (state = defaultState, action: ActionType<typeof fishes>): FishSt
       tagFilters: action.payload
     };
   case getType(fishes.addFavorite):
-    const updatedFavoriteFishes = state.favoriteFishes
-      .concat(action.payload)
-      .reduce((updatedList, item) => {
-        if (updatedList.indexOf(item) !== -1) {
+    const updatedFavoriteFishes = state.favoriteFishes.concat(action.payload).reduce((updatedList, item) => {
+        if (updatedList.indexOf(item) === -1) {
           updatedList.push(item);
         }
         return updatedList;

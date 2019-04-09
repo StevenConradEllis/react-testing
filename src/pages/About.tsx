@@ -72,7 +72,6 @@ class About extends Component<Props, State> {
 
                         <p>
                             We are specialists in Freshwater Tropical and Tropical Marine. We are also suppliers of pond products, aquariums and viviariums.
-                            We stock most of the Major Brands, New Era, Colombo, Deltec, Tetra, Hobby, Aquarian, Juwel and JBL + many more!
                             <br/> <br/>
                             We are one of the largest aquatic emporiums in London, and we pride our selves in 1 to 1 service and try to give the best possible advice to each customer
                             from beginner to experienced. We will always give a warm and friendly welcome to anyone who walks through the door!

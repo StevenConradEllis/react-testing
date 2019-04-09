@@ -1,8 +1,8 @@
 import React from 'react';
-import { connect } from 'react-redux';
-import { RouteComponentProps } from 'react-router';
-import { RootState } from '../store';
-import { IonIcon, IonHeader, IonToolbar, IonButtons, IonTitle, IonContent, IonButton, IonBackButton } from '@ionic/react'
+import {connect} from 'react-redux';
+import {RouteComponentProps} from 'react-router';
+import {RootState} from '../store';
+import {IonBackButton, IonButtons, IonContent, IonHeader, IonTitle, IonToolbar} from '@ionic/react'
 import './BranchDetail.css';
 
 type Props = RouteComponentProps<{ id: string, tab: string}> & ReturnType<typeof mapStateToProps> & {
@@ -30,18 +30,7 @@ const BranchDetail: React.FunctionComponent<Props> = ({ branches, match, goBack 
       <IonContent padding class="branch-detail branch-page-list">
         <div>
           <img src={branch.profilePic} alt={branch.name}/>
-          <br/>
-          <IonButton icon-only color="twitter">
-            <IonIcon name="logo-twitter"></IonIcon>
-          </IonButton>
-          <IonButton icon-only color="github">
-            <IonIcon name="logo-github"></IonIcon>
-          </IonButton>
-          <IonButton icon-only color="instagram">
-            <IonIcon name="logo-instagram"></IonIcon>
-          </IonButton>
         </div>
-
         <p>{branch.about}</p>
         <p><strong>Address</strong>: {branch.location}</p>
         <p><strong>Email</strong>: {branch.email}</p>

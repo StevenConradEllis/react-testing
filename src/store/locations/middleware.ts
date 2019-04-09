@@ -13,8 +13,9 @@ export const fetchLocationsMiddleware: Middleware<{}, LocationState> = ({ getSta
   next(locations.fetchLocations.request());
   try {
     const response = await fetch('/data/locations.json');
-    const sessionList: Location[] = await response.json();
-    next(locations.fetchLocations.success(sessionList));
+    const locationsList: Location[] = await response.json();
+
+    next(locations.fetchLocations.success(locationsList));
   } catch (e) {
     next(locations.fetchLocations.failure(e));
   }

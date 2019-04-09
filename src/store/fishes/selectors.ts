@@ -9,7 +9,7 @@ export function allTags(state: FishState) {
 
 export function allFiltered(state: FishState) {
   let searchFishes = searchText(state.searchText);
-  let searchTags = filterByTrack(state.tagFilters);
+  let searchTags = filterByTag(state.tagFilters);
 
   return state.fishes
     .filter(searchFishes)
@@ -18,7 +18,7 @@ export function allFiltered(state: FishState) {
 
 export function favoritesFiltered(state: FishState) {
   let searchFishes = searchText(state.searchText);
-  let searchTags = filterByTrack(state.tagFilters);
+  let searchTags = filterByTag(state.tagFilters);
 
   function isFavorite(fish: Fish) {
     return state.favoriteFishes.indexOf(fish.id) !== -1;
@@ -38,13 +38,13 @@ function searchText(searchText: string) {
   return (fish: Fish) => fish.name.toLowerCase().indexOf(lowerSearchText) !== -1;
 }
 
-function filterByTrack(trackFilters: string[]) {
-  if (trackFilters.length === 0) {
+function filterByTag(tagFilters: string[]) {
+  if (tagFilters.length === 0) {
     return () => true;
   }
   return (fish: Fish) => (
-    fish.tags.some(fishTrackName => (
-      trackFilters.some(trackName => trackName === fishTrackName)
+    fish.tags.some(fishTagName => (
+      tagFilters.some(tagName => tagName === fishTagName)
     ))
   );
 }

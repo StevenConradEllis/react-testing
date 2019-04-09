@@ -9,7 +9,7 @@ type Props = RouteComponentProps<{ id: string, tab: string }> & ReturnType<typeo
   goBack: () => void
 };
 
-const FishDetail: React.SFC<Props> = ({ fishes, branches, match, goBack }) => {
+const FishDetail: React.FC<Props> = ({ fishes, branches, match, goBack }) => {
   const fish = fishes.find(f => f.id === parseInt(match.params.id, 10));
   if (fish == null) {
     return null;

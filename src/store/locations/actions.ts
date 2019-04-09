@@ -8,5 +8,5 @@ export const fetchLocations = createAsyncAction(
 )<void, Location[], Error>();
 
 export const updateLocations = createAction('locations/UPDATE_LOCATIONS', resolve =>
-  () => resolve()
+  (location: Location) => resolve(location)
 );

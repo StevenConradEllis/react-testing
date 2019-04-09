@@ -33,7 +33,6 @@ class FishesPage extends Component<Props, State> {
   constructor(props: Props) {
     super(props);
 
-    props.updateLocations();
     props.updateFishes();
     props.updateBranches();
 
@@ -166,9 +165,6 @@ class FishesPage extends Component<Props, State> {
             <IonFabButton color="vimeo" onClick={() => this.openSocial('Vimeo')}>
               <IonIcon name="logo-vimeo"></IonIcon>
             </IonFabButton>
-            <IonFabButton color="google" onClick={() => this.openSocial('Google+')}>
-              <IonIcon name="logo-googleplus"></IonIcon>
-            </IonFabButton>
             <IonFabButton color="twitter" onClick={() => this.openSocial('Twitter')}>
               <IonIcon name="logo-twitter"></IonIcon>
             </IonFabButton>
@@ -192,7 +188,6 @@ const mapStateToProps = (state: RootState) => ({
 });
 
 const mapDispatchToProps = {
-  updateLocations: () => actions.locations.updateLocations(),
   updateFishes: () => actions.fishes.updateFishes(),
   updateBranches: () => actions.branches.updateBranches(),
   setSearchText: (searchText: string) => actions.fishes.setSearchText(searchText),

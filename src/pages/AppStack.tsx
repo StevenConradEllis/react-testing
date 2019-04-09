@@ -8,7 +8,7 @@ import BranchList from "./BranchList";
 import BranchDetail from "./BranchDetail";
 import FishDetail from "./FishDetail";
 
-const AppStack: React.SFC = () => (
+const AppStack: React.FC = () => (
   <IonPage>
     <Route exact path="/" render={() => <Redirect to="/fishes"/>}/>
     {

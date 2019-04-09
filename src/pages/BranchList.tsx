@@ -44,7 +44,7 @@ const BranchItem = ({branch, branchFishes, history}: ItemProps) => {
                     <IonAvatar slot="start">
                         <img src={process.env.PUBLIC_URL + branch.profilePic} alt="Branch profile pic"/>
                     </IonAvatar>
-                    {branch.name}
+                    <strong>{branch.name}</strong>
                 </IonItem>
             </IonCardHeader>
 
@@ -54,6 +54,8 @@ const BranchItem = ({branch, branchFishes, history}: ItemProps) => {
                     <h2>About {branch.name}</h2>
                 </IonItem>
                 <br/>
+
+                <h2>This branch stocks:</h2>
 
                 <IonList>
                     {branchFishes.map(fish => (
